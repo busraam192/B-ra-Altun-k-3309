@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kitapçı Sitesi</title>
+  <link rel="stylesheet" type="text/css" href="ss.css" />
+</head>
+<body>
+  <header>
+    <h1>Kitap Dünyası</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Kitap ara..." />
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn" data-category="Tümü">Tümü</button>
+      <button class="filter-btn" data-category="astroloji">Astroloji</button>
+      <button class="filter-btn" data-category="roman">Roman</button>
+      <button class="filter-btn" data-category="bilim">Bilim</button>
+    </div>
+  </header>
 
+  <main>
+    <div class="book-list" id="bookList"></div>
+  </main>
+
+  <script src="kt.js"></script>
+</body>
+</html>
